@@ -20,9 +20,9 @@ This daily planner app is a simple calendar app designed to help you schedule yo
 5. Click the save button (floppy disk icon) to store the event locally.
 
 ## Dependencies
-Bootstrap: v5.3.0
-jQuery: v3.2.1
-Day.js: v1.0.0
+- Bootstrap: v5.3.0
+- jQuery: v3.2.1
+- Day.js: v1.0.0
 
 ## Web link
 https://rich90u.github.io/Daily-Planner-App/
