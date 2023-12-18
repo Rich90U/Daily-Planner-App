@@ -26,3 +26,4 @@ Day.js: v1.0.0
 
 ## Web link
 https://rich90u.github.io/Daily-Planner-App/
+![rich90u github io_Daily-Planner-App_](https://github.com/Rich90U/Daily-Planner-App/assets/147627031/5af27003-4c01-459d-886e-840b2b5782ec)
