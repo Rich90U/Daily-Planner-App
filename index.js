@@ -30,4 +30,24 @@ $(document).ready(function () {
         textAreaCol.val(storedEvent);
       }
 
+      saveBtnCol.on("click", function () {
+        var hourToSave = $(this).siblings(".description").attr("data-hour");
+        var eventToSave = $(this).siblings(".description").val();
+        localStorage.setItem("event_" + hourToSave, eventToSave);
+      });
+
       
+      timeBlock.append(hourCol, textAreaCol, saveBtnCol);
+      container.append(timeBlock);
+    }
+  }
+
+  
+  function formatHour(hour) {
+    return dayjs().hour(hour).format("h A");
+  }
+
+  
+  displayCurrentDay();
+  createTimeBlocks();
+});
